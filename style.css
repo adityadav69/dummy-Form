@@ -75,6 +75,7 @@ body {
 @media (max-width: 885px) {
     .details-table {
         flex-direction: column;
+        position: relative;
     }
     .details-table .left, .details-table .right {
         width: 100%;
@@ -91,6 +92,12 @@ body {
         display: flex;
         flex-direction: column;
     }
+    .image-container{
+        position: absolute;
+        top: 10%;
+        right: 2%;
+    }
+
    
 }
 
