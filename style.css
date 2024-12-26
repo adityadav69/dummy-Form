@@ -128,16 +128,13 @@ body {
 
 /* payment css */
 
-
 .payment-container {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    max-width: 800px;
+    width: 95vw;
     margin: 50px auto;
-    padding: 20px;
+    padding: 5px;
     background-color: #fff;
-    border: 1px solid #ccc;
+    gap: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
@@ -150,7 +147,7 @@ body {
     margin-bottom: 15px;
     color: #333;
     font-size: 18px;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #f5f2f2;
     padding-bottom: 5px;
 }
 
@@ -158,6 +155,10 @@ body {
     margin: 8px 0;
     color: #555;
     font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: fit-content;
 }
 
 .payment-container span {
