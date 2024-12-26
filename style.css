@@ -125,3 +125,47 @@ body {
     }
    
 }
+
+/* payment css */
+
+
+.payment-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-section {
+    width: 45%;
+}
+
+.payment-container h3 {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 18px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.payment-container p {
+    margin: 8px 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.payment-container span {
+    color: #000;
+}
+
+.payment-container .highlight{
+    color: #4747d0;
+    font-size: 17px;
+    font-weight: bold;
+}
